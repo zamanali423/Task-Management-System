@@ -2,11 +2,17 @@
 This Task Management System allows users to manage tasks efficiently, including features like sorting, creating, updating, and deleting tasks.
 ## Table of Contents
   Prerequisites
+  <br />
   Installation
+  <br />
   Database Setup
+  <br />
   Running the Application
+  <br />
   API Endpoints
+  <br />
   Client Application
+  <br />
   Troubleshooting
 
 ## Prerequisites
