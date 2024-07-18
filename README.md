@@ -32,11 +32,10 @@ Ensure you have the following installed on your system:
 Objective: Develop a task management system with features for sorting, updating, and deleting tasks.
 <br/>
 ### Technology Stack:
-#### Frontend: `React.js`
-#### Backend: `Node.js, Express.js`
-#### Database: `MongoDB`
-#### Other Tools: 
-Context API for state management, React Router for navigation, FontAwesome for icons, React-Toastify for notifications.
+ Frontend: `React.js`
+ Backend: `Node.js, Express.js`
+ Database: `MongoDB`
+ Other Tools: Context API for state management, React Router for navigation, FontAwesome for icons, React-Toastify for notifications.
 
 ## Installation
 ## Backend
