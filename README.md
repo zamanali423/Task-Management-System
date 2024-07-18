@@ -33,8 +33,11 @@ Objective: Develop a task management system with features for sorting, updating,
 <br/>
 ### Technology Stack:
  Frontend: `React.js`
+ <br/>
  Backend: `Node.js, Express.js`
+ <br/>
  Database: `MongoDB`
+ <br/>
  Other Tools: Context API for state management, React Router for navigation, FontAwesome for icons, React-Toastify for notifications.
 
 ## Installation
