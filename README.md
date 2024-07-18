@@ -19,7 +19,9 @@ This Task Management System allows users to manage tasks efficiently, including 
 Ensure you have the following installed on your system:
 
   `Node.js` (v14.x or higher)
+  <br />
   `npm` (v6.x or higher)
+  <br />
   `MongoDB`
 
 # Installation
@@ -103,13 +105,16 @@ Ensure you have the following installed on your system:
 ## API Endpoints
 ## Task Routes
   `GET /tasks/:email` - Get all tasks for a user
+  <br />
   `GET /tasks/sortTask/:email?sort=ascending|descending` - Get sorted tasks for a user
+  <br />
   `DELETE /tasks/deleteTask/:id` - Delete a task by ID
 
 
 ## Client Application
 ### React Components
   `GetTask.js` - Main component to display and manage tasks
+  <br />
   `UpdateTask.js` - Component to update a task
 ### Context
    `userContext.js` - Context to manage user authentication and state
@@ -121,10 +126,12 @@ Ensure the backend server is running before starting the frontend application. O
 ### 1.MongoDB Connection Error:
 
 Ensure MongoDB service is running.
+<br />
 Check if the MongoDB connection string is correct in `backend/config/db.js`.
 
 ### 2.Port Conflicts:
 Ensure no other application is running on ports `3000` or `3001`.
+<br />
 Change the port in the `frontend/package.json` or `backend/server.js` if necessary.
 
 ### 3.Token Expired Errors:
@@ -134,6 +141,7 @@ Ensure you are logged in and have a valid token in local storage.
 Check the logs for any error messages:
 
 Backend logs will be printed in the terminal where you run `npm start` for the backend.
+<br />
 Frontend logs can be seen in the browser console (press F12 to open developer tools).
 
 
