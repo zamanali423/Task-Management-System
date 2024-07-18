@@ -71,7 +71,7 @@ const connectDB = async () => {
 };
 module.exports = connectDB;
 
-                        ```
+     ```
 
 # Running the Application
 # Backend
@@ -81,7 +81,7 @@ module.exports = connectDB;
      cd backend
      npm start
 
-          ```
+      ```
   The backend server will run on `http://localhost:3001`.
 
 ## Frontend
@@ -91,7 +91,7 @@ module.exports = connectDB;
        cd ../frontend
        npm start
 
-             ```
+       ```
   The frontend application will run on `http://localhost:3000`.  
 
 
