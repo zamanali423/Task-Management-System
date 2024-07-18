@@ -20,32 +20,41 @@ MongoDB
 # Installation
 ## Backend
 1. Clone the repository:
-       ```
-   git clone https://github.com/yourusername/task-management-system.git
+   ```
+   
+   git clone https://github.com/zamanali423/Task-Management-System
    cd task-management-system
+   
    ```
 3. Navigate to the backend directory and install dependencies:
-       ```
+   ```
+   
    cd backend
-       npm install
+   npm install
+   
    ```
 
 ## Frontend
  1. Navigate to the frontend directory and install dependencies:
-        ```
+    ```
+    
     cd ../frontend
     npm install
+    
     ```
 
 ## Database Setup
  1. Ensure MongoDB is installed and running on your local machine.
  2.Create a MongoDB database for the application (you can use a MongoDB GUI like MongoDB Compass or connect via the MongoDB shell):
        ```
+       
        mongo
        use taskManagementDB
+       
        ```
  3.Update the MongoDB connection string in the backend configuration:
       ```
+      
       // backend/config/db.js
 const mongoose = require('mongoose');
 const connectDB = async () => {
@@ -61,23 +70,28 @@ const connectDB = async () => {
   }
 };
 module.exports = connectDB;
+
 ```
 
 # Running the Application
 # Backend
 1.Start the backend server:
       ```
-cd backend
-npm start
-```
+
+     cd backend
+     npm start
+
+     ```
   The backend server will run on `http://localhost:3001`.
 
 ## Frontend
  1.Start the frontend application:
        ```
+
        cd ../frontend
        npm start
-          ```
+
+       ```
   The frontend application will run on `http://localhost:3000`.  
 
 
