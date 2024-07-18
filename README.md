@@ -1,21 +1,20 @@
 # Task-Management-System
 This Task Management System allows users to manage tasks efficiently, including features like sorting, creating, updating, and deleting tasks.
 ## Table of Contents
-Prerequisites
-Installation
-Database Setup
-Running the Application
-API Endpoints
-Client Application
-Screenshots
-Troubleshooting
+  Prerequisites
+  Installation
+  Database Setup
+  Running the Application
+  API Endpoints
+  Client Application
+  Troubleshooting
 
 ## Prerequisites
 Ensure you have the following installed on your system:
 
-Node.js (v14.x or higher)
-npm (v6.x or higher)
-MongoDB
+  `Node.js` (v14.x or higher)
+  `npm` (v6.x or higher)
+  `MongoDB`
 
 # Installation
 ## Backend
@@ -97,17 +96,17 @@ MongoDB
 
 ## API Endpoints
 ## Task Routes
-`GET /tasks/:email` - Get all tasks for a user
-`GET /tasks/sortTask/:email?sort=ascending|descending` - Get sorted tasks for a user
-`DELETE /tasks/deleteTask/:id` - Delete a task by ID
+  `GET /tasks/:email` - Get all tasks for a user
+  `GET /tasks/sortTask/:email?sort=ascending|descending` - Get sorted tasks for a user
+  `DELETE /tasks/deleteTask/:id` - Delete a task by ID
 
 
 ## Client Application
 ### React Components
-`GetTask.js` - Main component to display and manage tasks
-`UpdateTask.js` - Component to update a task
+  `GetTask.js` - Main component to display and manage tasks
+  `UpdateTask.js` - Component to update a task
 ### Context
-`userContext.js` - Context to manage user authentication and state
+   `userContext.js` - Context to manage user authentication and state
 ### Running the Client
 Ensure the backend server is running before starting the frontend application. Open your browser and navigate to `http://localhost:3000` to see the Task Management System in action.
 
