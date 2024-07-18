@@ -28,17 +28,17 @@ Ensure you have the following installed on your system:
   <br />
   `MongoDB`
 ## Development Process
-1. Project Initialization
+#### 1. Project Initialization
 Objective: Develop a task management system with features for sorting, updating, and deleting tasks.
 <br/>
 ### Technology Stack:
-##### Frontend: 
+#### Frontend: 
 React.js
-##### Backend: 
+#### Backend: 
 Node.js, Express.js
-##### Database: 
+#### Database: 
 MongoDB
-##### Other Tools: 
+#### Other Tools: 
 Context API for state management, React Router for navigation, FontAwesome for icons, React-Toastify for notifications.
 
 ## Installation
